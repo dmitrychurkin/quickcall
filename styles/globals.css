@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --primary: #090a33;
+  --secondary: #0f1055;
+  --page-background: hsl(204 9% 95%);
+  --dark: #231c32;
+  --white: #fff;
+  --black: #000;
+  --field-background-grey: hsl(210 4% 91%);
+  --field-border: #d9dbdb;
+  --yellow: #fbd71e;
+  /* Fonts */
+  --primary-font: 'Poppins', sans-serif;
+
+  font-family: var(--primary-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

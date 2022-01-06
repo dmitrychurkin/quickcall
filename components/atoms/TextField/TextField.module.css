@@ -1,0 +1,26 @@
+.root {
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: var(--black);
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.input {
+    background-color: var(--field-background-grey);
+    border: .063rem solid var(--field-border);
+    border-radius: .25rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.03em;
+    color: var(--dark);
+    outline: 0;
+    padding: .5rem 1rem;
+}
